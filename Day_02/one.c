@@ -36,8 +36,8 @@ long long int outcome ( char mine, char their )
 int main ( int argc, char* argv[] )
 {
 	Unused ( argc ); Unused ( argv );
-	const char* input_file_name = "input.txt";
-//	const char* input_file_name = "sample.txt";
+	const char* input_file_name = "sample.txt";
+//	const char* input_file_name = "input.txt";
 	FILE* input = fopen ( input_file_name, "r" );
 	if ( input == NULL ) {
 		fprintf ( stderr, "Can't open file: %s\n", strerror ( errno ) );

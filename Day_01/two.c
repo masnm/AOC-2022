@@ -31,7 +31,8 @@ int less ( const void* a, const void* b )
 int main ( int argc, char* argv[] )
 {
 	(void) argc; (void) argv;
-	FILE* input = fopen ( "input_one", "r" );
+	FILE* input = fopen ( "sample.txt", "r" );
+//	FILE* input = fopen ( "input.txt", "r" );
 	char *line = NULL;
 	size_t len = 0;
 	ssize_t nread;
