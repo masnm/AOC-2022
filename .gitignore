@@ -53,3 +53,4 @@ dkms.conf
 
 # advent of code input files
 *input.txt
+*sample.txt
