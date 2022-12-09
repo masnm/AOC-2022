@@ -110,8 +110,8 @@ size_t get_ans ( void )
 int main ( int argc, char* argv[] )
 {
 	unused ( argc ); unused ( argv );
-//	const char* input_file = "sample.txt";
-	const char* input_file = "input.txt";
+	const char* input_file = "sample.txt";
+//	const char* input_file = "input.txt";
 	simulate_instructions ( input_file );
 	size_t ans = get_ans ();
 	printf ( "Ans is : %zu\n", ans );

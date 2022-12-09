@@ -155,8 +155,8 @@ void simulate_operations ( const char* input_file )
 int main ( int argc, char* argv[] )
 {
 	unused ( argc ); unused ( argv );
-//	const char* input_file = "sample.txt";
-	const char* input_file = "input.txt";
+	const char* input_file = "sample.txt";
+//	const char* input_file = "input.txt";
 	get_stacks_count ( input_file );
 	populate_the_stacks ( input_file );
 	simulate_operations ( input_file );

@@ -66,7 +66,7 @@ int main ( int argc, char* argv[] )
 //	const char* input_file = "sample4.txt";
 //	const char* input_file = "sample5.txt";
 
-	const char* input_file = "input.txt";
+	const char* input_file = "sample.txt";
 
 	long long int ans = find_ans ( input_file );
 	printf ( "Ans is : %lld\n", ans + 1 );

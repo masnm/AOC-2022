@@ -61,8 +61,8 @@ Mine get_accurate_choice ( char other, char mine )
 int main ( int argc, char* argv[] )
 {
 	Unused ( argc ); Unused ( argv );
-	const char* input_file_name = "input.txt";
-//	const char* input_file_name = "sample.txt";
+//	const char* input_file_name = "input.txt";
+	const char* input_file_name = "sample.txt";
 	FILE* input = fopen ( input_file_name, "r" );
 	if ( input == NULL ) {
 		fprintf ( stderr, "Can't open file: %s\n", strerror ( errno ) );
